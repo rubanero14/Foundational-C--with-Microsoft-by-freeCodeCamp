@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\obj\Debug\net7.0\ExerciseBoolean.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\obj\Debug\net7.0\ExerciseBoolean.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\obj\Debug\net7.0\ExerciseBoolean.AssemblyInfo.cs
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\obj\Debug\net7.0\ExerciseBoolean.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\bin\Debug\net7.0\ExerciseBoolean.exe
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\bin\Debug\net7.0\ExerciseBoolean.deps.json
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\bin\Debug\net7.0\ExerciseBoolean.runtimeconfig.json
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\bin\Debug\net7.0\ExerciseBoolean.dll
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\bin\Debug\net7.0\ExerciseBoolean.pdb
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\obj\Debug\net7.0\ExerciseBoolean.dll
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\obj\Debug\net7.0\refint\ExerciseBoolean.dll
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\obj\Debug\net7.0\ExerciseBoolean.pdb
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\obj\Debug\net7.0\ExerciseBoolean.genruntimeconfig.cache
+C:\Users\User\Desktop\CsharpProjects\ExerciseBoolean\obj\Debug\net7.0\ref\ExerciseBoolean.dll
