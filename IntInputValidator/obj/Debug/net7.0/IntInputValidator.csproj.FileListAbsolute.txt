@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\obj\Debug\net7.0\IntInputValidator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\obj\Debug\net7.0\IntInputValidator.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\obj\Debug\net7.0\IntInputValidator.AssemblyInfo.cs
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\obj\Debug\net7.0\IntInputValidator.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\bin\Debug\net7.0\IntInputValidator.exe
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\bin\Debug\net7.0\IntInputValidator.deps.json
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\bin\Debug\net7.0\IntInputValidator.runtimeconfig.json
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\bin\Debug\net7.0\IntInputValidator.dll
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\bin\Debug\net7.0\IntInputValidator.pdb
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\obj\Debug\net7.0\IntInputValidator.dll
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\obj\Debug\net7.0\refint\IntInputValidator.dll
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\obj\Debug\net7.0\IntInputValidator.pdb
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\obj\Debug\net7.0\IntInputValidator.genruntimeconfig.cache
+C:\Users\User\Desktop\CsharpProjects\IntInputValidator\obj\Debug\net7.0\ref\IntInputValidator.dll

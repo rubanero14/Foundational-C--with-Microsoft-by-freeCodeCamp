@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\obj\Debug\net7.0\ExerciseSwitchStatement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\obj\Debug\net7.0\ExerciseSwitchStatement.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\obj\Debug\net7.0\ExerciseSwitchStatement.AssemblyInfo.cs
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\obj\Debug\net7.0\ExerciseSwitchStatement.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\bin\Debug\net7.0\ExerciseSwitchStatement.exe
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\bin\Debug\net7.0\ExerciseSwitchStatement.deps.json
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\bin\Debug\net7.0\ExerciseSwitchStatement.runtimeconfig.json
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\bin\Debug\net7.0\ExerciseSwitchStatement.dll
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\bin\Debug\net7.0\ExerciseSwitchStatement.pdb
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\obj\Debug\net7.0\ExerciseSwitchStatement.dll
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\obj\Debug\net7.0\refint\ExerciseSwitchStatement.dll
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\obj\Debug\net7.0\ExerciseSwitchStatement.pdb
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\obj\Debug\net7.0\ExerciseSwitchStatement.genruntimeconfig.cache
+C:\Users\User\Desktop\CsharpProjects\ExerciseSwitchStatement\obj\Debug\net7.0\ref\ExerciseSwitchStatement.dll

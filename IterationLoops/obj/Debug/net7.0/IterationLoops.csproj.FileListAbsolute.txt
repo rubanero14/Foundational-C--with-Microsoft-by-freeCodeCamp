@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\bin\Debug\net7.0\IterationLoops.exe
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\bin\Debug\net7.0\IterationLoops.deps.json
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\bin\Debug\net7.0\IterationLoops.runtimeconfig.json
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\bin\Debug\net7.0\IterationLoops.dll
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\bin\Debug\net7.0\IterationLoops.pdb
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\obj\Debug\net7.0\IterationLoops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\obj\Debug\net7.0\IterationLoops.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\obj\Debug\net7.0\IterationLoops.AssemblyInfo.cs
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\obj\Debug\net7.0\IterationLoops.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\obj\Debug\net7.0\IterationLoops.dll
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\obj\Debug\net7.0\refint\IterationLoops.dll
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\obj\Debug\net7.0\IterationLoops.pdb
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\obj\Debug\net7.0\IterationLoops.genruntimeconfig.cache
+C:\Users\User\Desktop\CsharpProjects\IterationLoops\obj\Debug\net7.0\ref\IterationLoops.dll
