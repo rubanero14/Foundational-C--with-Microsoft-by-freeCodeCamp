@@ -121,3 +121,166 @@ Console.WriteLine($@"Message: {words}");
 Console.WriteLine($@"Total: {prevNum}");
 
 Console.WriteLine("===========================================================");
+
+int v1 = 12;
+decimal v2 = 6.2m;
+float v3 = 4.3f;
+
+// Your code here to set result1
+// Hint: You need to round the result to nearest integer (don't just truncate)
+int Result1 = (int)v1 / (int)v2;
+Console.WriteLine($"Divide value1 by value2, display the result as an int: {Result1}");
+
+// Your code here to set result2
+decimal Result2 = (decimal)v2 / (decimal)v3;
+Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {Result2}");
+
+// Your code here to set result3
+float Result3 = (float)v3 / (float)v1;
+Console.WriteLine($"Divide value3 by value1, display the result as a float: {Result3}");
+
+Console.WriteLine("===========================================================");
+
+// Exercise - Discover Sort() and Reverse()
+string[] pallets = { "B14", "A11", "B12", "A13" };
+
+Console.WriteLine("Before Sorted...");
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+Console.WriteLine();
+Array.Sort(pallets);
+Console.WriteLine("After Sorted...");
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+Console.WriteLine();
+Console.WriteLine("After Reversed...");
+Array.Reverse(pallets);
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+Console.WriteLine("===========================================================");
+
+// Exercise - Explore Clear() and Resize()
+Console.WriteLine("");
+Array.Clear(pallets, 0, 2);
+Console.WriteLine($"Clearing 2 ... count: {pallets.Length}");
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+Console.WriteLine("===========================================================");
+
+// Access the value of a cleared element
+Console.WriteLine($"Before: {pallets[3].ToLower()}");
+Array.Clear(pallets, 0, 4);
+// Fix the null execption
+if (pallets[3] != null)
+    Console.WriteLine($"After: {pallets[3].ToLower()}"); // Will throw an null exception due to value cleared and assigned to null
+
+Console.WriteLine("===========================================================");
+
+// Resize the array to add more elements
+Console.WriteLine();
+Array.Resize(ref pallets, 6);
+Console.WriteLine($"Resizing 6 ... count: {pallets.Length}");
+
+pallets[4] = "C01";
+pallets[5] = "C02";
+
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+Console.WriteLine("===========================================================");
+
+// Resize the array to remove elements
+Console.WriteLine();
+Array.Resize(ref pallets, 3);
+Console.WriteLine($"Resizing 3 ... count: {pallets.Length}");
+
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+Console.WriteLine("===========================================================");
+
+// Remove null values
+string[] pallets1 = { "B14", "A11", "B12", "A13" };
+string[] pallets2 = new string[4];
+
+Array.Clear(pallets1, 0, 2);
+
+foreach (var item in pallets1)
+{
+    if (item != null)
+    {
+        Console.WriteLine(item);
+        // Using the .Append() method and converting it back to a string array, copying into new array
+        pallets2 = pallets2.Append(item).ToArray();
+    }
+}
+
+foreach (string item in pallets2)
+{
+    if (item != null)
+        Console.WriteLine(item);
+}
+
+Console.WriteLine("===========================================================");
+
+// Exercise - Discover Split() and Join()
+string strV1 = "abc123";
+char[] valueArray = strV1.ToCharArray(); // Use the ToCharArray() to reverse a string
+Console.WriteLine(valueArray);
+Array.Reverse(valueArray);
+string result3 = new string(valueArray);
+Console.WriteLine(result3);
+
+// string result4 = new string(valueArray);
+string result4 = String.Join(",", valueArray);
+Console.WriteLine(result4);
+
+Console.WriteLine("===========================================================");
+
+// Split() the comma-separated-value string into an array of strings
+string[] items = result4.Split(',');
+foreach (string item in items)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine("===========================================================");
+
+// Exercise - Complete a challenge to reverse words in a sentence
+string pangram1 = "The quick brown fox jumps over the lazy dog";
+
+// Step 1
+string[] Message10 = pangram1.Split(' ');
+
+//Step 2
+string[] newMessage = new string[Message10.Length];
+
+// Step 3
+for (int i = 0; i < Message10.Length; i++)
+{
+    char[] letters = Message10[i].ToCharArray();
+    Array.Reverse(letters);
+    newMessage[i] = new string(letters);
+}
+
+//Step 4
+string result5 = String.Join(" ", newMessage);
+Console.WriteLine(result5);
+
+Console.WriteLine("===========================================================");
