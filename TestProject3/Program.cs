@@ -574,6 +574,22 @@ while (true)
 
 Console.WriteLine("===========================================================");
 
-// Exercise - Use the Remove() and Replace() methods
+// Exercise - Use the Remove() methods
+
+// Use the Remove() method
+// Remove characters in specific locations from a string
+string data = "12345John Smith          5000  3  ";
+string updatedData = data.Remove(5, 20); // The Remove() method works similarly to the Substring() method. You supply a starting position and the length to remove those characters from the string.
+Console.WriteLine(updatedData);
+
+Console.WriteLine("===========================================================");
+
+// Exercise - Use the Replace() methods
+// Use the Replace() method
+// Remove characters no matter where they appear in a string
+string Message18 = "This--is--ex-amp-le--da-ta";
+Message18 = Message18.Replace("--", " ");
+Message18 = Message18.Replace("-", "");
+Console.WriteLine(Message18);
 
 Console.WriteLine("===========================================================");
