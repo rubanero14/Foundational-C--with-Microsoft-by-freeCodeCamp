@@ -473,3 +473,107 @@ int LENGTH = Closing_Position - Opening_Position;
 Console.WriteLine(Message13.Substring(Opening_Position, LENGTH));
 
 Console.WriteLine("===========================================================");
+
+// Exercise - Use the string's IndexOfAny() and LastIndexOf() helper methods
+// Retrieve the last occurrence of a sub string
+string Message14 = "(What if) I am (only interested) in the last (set of parentheses)?";
+int openingPosition1 = Message14.LastIndexOf('(');
+
+openingPosition1 += 1;
+int closingPosition1 = Message14.LastIndexOf(')');
+int length1 = closingPosition1 - openingPosition1;
+Console.WriteLine(Message14.Substring(openingPosition1, length1));
+
+Console.WriteLine("===========================================================");
+
+// Retrieve all instances of substrings inside parentheses
+string Message15 = "(What if) there are (more than) one (set of parentheses)?";
+/*
+    This time, you update the message to have three sets of parentheses, and you write code to extract any text inside of the parentheses. 
+    You're able to reuse portions of the previous work, but need to add a while statement to iterate through the string until 
+    all sets of parentheses are discovered, extracted, and displayed.
+*/
+while (true)
+{
+    int openingPosition2 = Message15.IndexOf('(');
+    if (openingPosition2 == -1) break;
+
+    openingPosition2 += 1;
+    int closingPosition2 = Message15.IndexOf(')');
+    int length2 = closingPosition2 - openingPosition2;
+    Console.WriteLine(Message15.Substring(openingPosition2, length2));
+
+    // Note the overload of the Substring to return only the remaining 
+    // unprocessed message:
+    Message15 = Message15.Substring(closingPosition2 + 1);
+}
+
+Console.WriteLine("===========================================================");
+
+// Work with different types of symbol sets
+string Message16 = "Help (find) the {opening symbols}";
+Console.WriteLine($"Searching THIS Message: {Message16}");
+char[] openSymbols = { '[', '{', '(' };
+int startPosition = 6;
+int openingPosition3 = Message16.IndexOfAny(openSymbols);
+Console.WriteLine($"Found WITHOUT using startPosition: {Message16.Substring(openingPosition3)}");
+
+openingPosition3 = Message16.IndexOfAny(openSymbols, startPosition);
+Console.WriteLine($"Found WITH using startPosition: {Message16.Substring(openingPosition3)}");
+
+Console.WriteLine("===========================================================");
+
+// Now that you found an opening symbol, you need to find its matching closing symbol.
+string Message17 = "(What if) I have [different symbols] but every {open symbol} needs a [matching closing symbol]?";
+
+// The IndexOfAny() helper method requires a char array of characters.
+// Use openSymbols from previous exercise
+// You'll use a slightly different technique for iterating through 
+// the characters in the string. This time, use the closing 
+// position of the previous iteration as the starting index for the 
+// next open symbol. So, you need to initialize the closingPosition 
+// variable to zero:
+
+int closingPosition4 = 0;
+
+while (true)
+{
+    int openingPosition4 = Message17.IndexOfAny(openSymbols, closingPosition4);
+
+    if (openingPosition4 == -1) break;
+
+    string currentSymbol = Message17.Substring(openingPosition4, 1);
+
+    // Now find the matching closing symbol
+    char matchingSymbol = ' ';
+
+    switch (currentSymbol)
+    {
+        case "[":
+            matchingSymbol = ']';
+            break;
+        case "{":
+            matchingSymbol = '}';
+            break;
+        case "(":
+            matchingSymbol = ')';
+            break;
+    }
+
+    // To find the closingPosition, use an overload of the IndexOf method to specify 
+    // that the search for the matchingSymbol should start at the openingPosition in the string. 
+
+    openingPosition4 += 1;
+    closingPosition4 = Message17.IndexOf(matchingSymbol, openingPosition4);
+
+    // Finally, use the techniques you've already learned to display the sub-string:
+
+    int length4 = closingPosition4 - openingPosition4;
+    Console.WriteLine(Message17.Substring(openingPosition4, length4));
+}
+
+Console.WriteLine("===========================================================");
+
+// Exercise - Use the Remove() and Replace() methods
+
+Console.WriteLine("===========================================================");
