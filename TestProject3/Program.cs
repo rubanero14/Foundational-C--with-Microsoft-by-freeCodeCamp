@@ -284,3 +284,192 @@ string result5 = String.Join(" ", newMessage);
 Console.WriteLine(result5);
 
 Console.WriteLine("===========================================================");
+
+// Exercise - Complete a challenge to parse a string of orders, sort the orders and tag possible errors
+string orderStream = "B123,C234,A345,C15,B177,G3003,C235,B179";
+string[] orderIDs = orderStream.Split(",");
+
+Array.Sort(orderIDs);
+
+foreach (string order in orderIDs)
+{
+    if (order.Length == 4)
+        Console.WriteLine(order);
+    else
+        Console.WriteLine(order + " - Error");
+}
+
+Console.WriteLine("===========================================================");
+
+// Exercise - Investigate string formatting basics
+string FIRST = "Hello";
+string SECOND = "World";
+string RESULT = string.Format("{0} {1}!", FIRST, SECOND);
+
+// Composite Formatting
+Console.WriteLine(RESULT);
+Console.WriteLine("{1} {0}!", FIRST, SECOND);
+Console.WriteLine("{0} {0} {0}!", FIRST, SECOND);
+
+// String interpolation
+Console.WriteLine($"{FIRST} {SECOND}!");
+Console.WriteLine($"{SECOND} {FIRST}!");
+Console.WriteLine($"{FIRST} {FIRST} {FIRST}!");
+
+Console.WriteLine("===========================================================");
+
+// Formatting currency
+decimal price = 123.45m;
+int discount = 50;
+Console.WriteLine($@"Price: {price:C} (Save {discount:C})");
+
+Console.WriteLine("===========================================================");
+
+// Formatting numbers
+decimal measurement = 123456.78912m;
+Console.WriteLine($"Measurement: {measurement:N} units");
+Console.WriteLine($"Measurement: {measurement:N4} units"); // N4 to show four decimal points, can be changed according to :N(n) numbers formatting
+
+Console.WriteLine("===========================================================");
+
+// Formatting percentages
+decimal tax = .36785m;
+Console.WriteLine($"Tax rate: {tax:P2}");
+
+Console.WriteLine("===========================================================");
+
+// Combining formatting approaches
+
+Console.WriteLine("===========================================================");
+
+decimal PRICE = 67.55m;
+decimal salePrice = 59.99m;
+
+string yourDiscount = String.Format("You saved {0:C2} off the regular {1:C2} price. ", (PRICE - salePrice), PRICE);
+yourDiscount += $"A discount of {(PRICE - salePrice) / PRICE:P2}!"; //inserted
+Console.WriteLine(yourDiscount);
+
+Console.WriteLine("===========================================================");
+
+// Exercise - Explore string interpolation
+int invoiceNumber = 1201;
+decimal productShares = 25.4568m;
+decimal subtotal = 2750.00m;
+decimal taxPercentage = .15825m;
+decimal total = 3185.19m;
+
+Console.WriteLine($"Invoice Number: {invoiceNumber}");
+Console.WriteLine($"Shares: {productShares:N3} Product");
+Console.WriteLine($"Sub Total: {subtotal:C}");
+Console.WriteLine($"Tax: {taxPercentage:P2}");
+Console.WriteLine($"Total Billed: {total:C}");
+
+Console.WriteLine("===========================================================");
+
+// Formatting strings by adding whitespace before or after
+string input = "Pad this";
+Console.WriteLine(input.PadLeft(12));
+
+// Using overloaded method
+Console.WriteLine(input.PadLeft(12, '-'));
+Console.WriteLine(input.PadRight(12, '-'));
+
+Console.WriteLine("===========================================================");
+
+// Working with padded strings
+string paymentId = "769C";
+
+// Add the payee name to the output
+string payeeName = "Mr. Stephen Ortega";
+
+var formattedLine = paymentId.PadRight(6);
+formattedLine += payeeName.PadRight(24);
+
+Console.WriteLine(formattedLine);
+
+Console.WriteLine("===========================================================");
+
+// Add the payment amount to the output
+string paymentAmount = "$5,000.00";
+formattedLine += paymentAmount.PadLeft(10);
+Console.WriteLine("1234567890123456789012345678901234567890");
+Console.WriteLine(formattedLine);
+
+Console.WriteLine("===========================================================");
+
+// Exercise - Complete a challenge to apply string interpolation to a form letter
+string customerName = "Ms. Barros";
+
+string currentProduct = "Magic Yield";
+int currentShares = 2975000;
+decimal currentReturn = 0.1275m;
+decimal currentProfit = 55000000.0m;
+
+string newProduct = "Glorious Future";
+decimal newReturn = 0.13125m;
+decimal newProfit = 63000000.0m;
+
+// Your logic here
+string comparisonMessage = "";
+comparisonMessage += $"Dear {customerName},\n";
+comparisonMessage += $"As a customer of our {currentProduct} offering we are excited to tell you about a new financial product that would dramatically increase your return.\n\n";
+comparisonMessage += $"Currently, you own {currentShares:N} shares at a return of {currentReturn:P2}\n\n";
+comparisonMessage += $"Our new product, {newProduct} offers a return of {newReturn:P2}.  Given your current volume, your potential profit would be {newProfit:C}.\n\n";
+comparisonMessage += $"Here's a quick comparison:\n";
+comparisonMessage += $"{currentProduct.PadRight(20)}{currentReturn:P2}{"".PadRight(6)}{currentProfit:C}\n";
+comparisonMessage += $"{newProduct.PadRight(20)}{newReturn:P2}{"".PadRight(6)}{newProfit:C}";
+// Your logic here
+
+Console.WriteLine(comparisonMessage);
+
+Console.WriteLine("===========================================================");
+
+// Exercise - Use the string's IndexOf() and Substring() helper methods
+// Write code to find parenthesis pairs embedded in a string
+string Message11 = "Find what is (inside the parentheses)";
+
+int openingPosition = Message11.IndexOf('(');
+int closingPosition = Message11.IndexOf(')');
+
+Console.WriteLine(openingPosition);
+Console.WriteLine(closingPosition);
+
+// Add code to retrieve the value between parenthesis
+openingPosition += 1;
+int length = closingPosition - openingPosition;
+Console.WriteLine(Message11.Substring(openingPosition, length));
+
+Console.WriteLine("===========================================================");
+
+// Exercise 2 - Use the string's IndexOf() and Substring() helper methods
+string Message12 = "What is the value <span>between the tags</span>?";
+
+int OpeningPosition = Message12.IndexOf("<span>");
+int ClosingPosition = Message12.IndexOf("</span>");
+
+Console.WriteLine(OpeningPosition);
+Console.WriteLine(ClosingPosition);
+
+OpeningPosition += 6;
+int Length = ClosingPosition - OpeningPosition;
+Console.WriteLine(Message12.Substring(OpeningPosition, Length));
+
+Console.WriteLine("===========================================================");
+
+// Avoid magic values
+string Message13 = "What is the value <span>between the tags</span>?";
+
+const string openSpan = "<span>";
+const string closeSpan = "</span>";
+
+int Opening_Position = Message13.IndexOf(openSpan);
+int Closing_Position = Message13.IndexOf(closeSpan);
+
+Console.WriteLine(Opening_Position);
+Console.WriteLine(Closing_Position);
+
+Opening_Position += openSpan.Length;
+int LENGTH = Closing_Position - Opening_Position;
+Console.WriteLine(Message13.Substring(Opening_Position, LENGTH));
+
+Console.WriteLine("===========================================================");
