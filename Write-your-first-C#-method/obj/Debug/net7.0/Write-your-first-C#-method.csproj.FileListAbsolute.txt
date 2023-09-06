@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\bin\Debug\net7.0\Write-your-first-C#-method.exe
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\bin\Debug\net7.0\Write-your-first-C#-method.deps.json
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\bin\Debug\net7.0\Write-your-first-C#-method.runtimeconfig.json
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\bin\Debug\net7.0\Write-your-first-C#-method.dll
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\bin\Debug\net7.0\Write-your-first-C#-method.pdb
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\obj\Debug\net7.0\Write-your-first-C#-method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\obj\Debug\net7.0\Write-your-first-C#-method.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\obj\Debug\net7.0\Write-your-first-C#-method.AssemblyInfo.cs
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\obj\Debug\net7.0\Write-your-first-C#-method.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\obj\Debug\net7.0\Write-your-first-C#-method.dll
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\obj\Debug\net7.0\refint\Write-your-first-C#-method.dll
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\obj\Debug\net7.0\Write-your-first-C#-method.pdb
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\obj\Debug\net7.0\Write-your-first-C#-method.genruntimeconfig.cache
+C:\Users\User\Desktop\CsharpProjects\Write-your-first-C#-method\obj\Debug\net7.0\ref\Write-your-first-C#-method.dll
