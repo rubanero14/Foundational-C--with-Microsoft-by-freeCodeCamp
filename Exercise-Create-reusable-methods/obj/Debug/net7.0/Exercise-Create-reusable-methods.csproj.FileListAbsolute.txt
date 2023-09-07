@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\bin\Debug\net7.0\Exercise-Create-reusable-methods.exe
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\bin\Debug\net7.0\Exercise-Create-reusable-methods.deps.json
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\bin\Debug\net7.0\Exercise-Create-reusable-methods.runtimeconfig.json
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\bin\Debug\net7.0\Exercise-Create-reusable-methods.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\bin\Debug\net7.0\Exercise-Create-reusable-methods.pdb
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\obj\Debug\net7.0\Exercise-Create-reusable-methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\obj\Debug\net7.0\Exercise-Create-reusable-methods.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\obj\Debug\net7.0\Exercise-Create-reusable-methods.AssemblyInfo.cs
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\obj\Debug\net7.0\Exercise-Create-reusable-methods.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\obj\Debug\net7.0\Exercise-Create-reusable-methods.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\obj\Debug\net7.0\refint\Exercise-Create-reusable-methods.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\obj\Debug\net7.0\Exercise-Create-reusable-methods.pdb
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\obj\Debug\net7.0\Exercise-Create-reusable-methods.genruntimeconfig.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise-Create-reusable-methods\obj\Debug\net7.0\ref\Exercise-Create-reusable-methods.dll
