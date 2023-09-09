@@ -32,27 +32,12 @@ foreach (var ipv4 in ipv4Input)
 
 bool ValidateLength(string ip)
 {
-    string[] ipComponent = ip.Split('.');
-    bool correctLength = ip.Split('.').Length == 4 ? true : false;
-    bool isValid = false;
-    foreach (var ipc in ipComponent)
-    {
-        if (ipc == "")
-        {
-            isValid = false && correctLength;
-            return isValid;
-        }
-        else
-        {
-            isValid = true && correctLength;
-        }
-    }
-    return isValid && correctLength;
+    return ip.Split('.', StringSplitOptions.RemoveEmptyEntries).Length == 4 ? true : false;
 };
 
 bool ValidateZeroes(string ip)
 {
-    string[] ipComponent = ip.Split('.');
+    string[] ipComponent = ip.Split('.', StringSplitOptions.RemoveEmptyEntries); // Using StringSplitOptions.RemoveEmptyEntries omits empty entries from the address array and prevent attempts to parse empty strings.
     bool isValid = false;
     foreach (var ipc in ipComponent)
     {
@@ -70,7 +55,7 @@ bool ValidateZeroes(string ip)
 
 bool ValidateRange(string ip)
 {
-    string[] ipComponent = ip.Split('.');
+    string[] ipComponent = ip.Split('.', StringSplitOptions.RemoveEmptyEntries); // Using StringSplitOptions.RemoveEmptyEntries omits empty entries from the address array and prevent attempts to parse empty strings.
     int ipComps;
     bool isValid = false;
 
