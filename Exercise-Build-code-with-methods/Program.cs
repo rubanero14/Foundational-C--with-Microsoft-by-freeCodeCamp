@@ -12,14 +12,14 @@ then ipAddress is valid
 
 else ipAddress is invalid
 */
-string[] ipv4Input = { "107.31.1.5", "255.0.0.255", "555.1.0.555", "255.5.6.255", "255.5.6.255.9" };
-
-// System.Console.WriteLine("ValidateLength(ipv4Input): " + ValidateLength(ipv4Input));
-// System.Console.WriteLine("ValidateZeroes(ipv4Input): " + ValidateZeroes(ipv4Input));
-// System.Console.WriteLine("ValidateRange(ipv4Input): " + ValidateRange(ipv4Input));
+string[] ipv4Input = { "107.31.1.5", "255.0.0.255", "555.1.0.555", "255.5.6.255", "255.5.6.255.9", "555..0.555", "255...255" };
 
 foreach (var ipv4 in ipv4Input)
 {
+    // System.Console.WriteLine("ValidateLength(ipv4Input): " + ValidateLength(ipv4));
+    // System.Console.WriteLine("ValidateZeroes(ipv4Input): " + ValidateZeroes(ipv4));
+    // System.Console.WriteLine("ValidateRange(ipv4Input): " + ValidateRange(ipv4));
+
     if (ValidateLength(ipv4) && ValidateZeroes(ipv4) && ValidateRange(ipv4))
     {
         Console.WriteLine($"ip => {ipv4} is a valid IPv4 address");
@@ -32,7 +32,22 @@ foreach (var ipv4 in ipv4Input)
 
 bool ValidateLength(string ip)
 {
-    return ip.Split('.').Length == 4 ? true : false;
+    string[] ipComponent = ip.Split('.');
+    bool correctLength = ip.Split('.').Length == 4 ? true : false;
+    bool isValid = false;
+    foreach (var ipc in ipComponent)
+    {
+        if (ipc == "")
+        {
+            isValid = false && correctLength;
+            return isValid;
+        }
+        else
+        {
+            isValid = true && correctLength;
+        }
+    }
+    return isValid && correctLength;
 };
 
 bool ValidateZeroes(string ip)
