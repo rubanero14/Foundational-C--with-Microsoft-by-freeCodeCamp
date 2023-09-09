@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\obj\Debug\net7.0\Exercise-Build-code-with-methods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\obj\Debug\net7.0\Exercise-Build-code-with-methods.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\obj\Debug\net7.0\Exercise-Build-code-with-methods.AssemblyInfo.cs
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\obj\Debug\net7.0\Exercise-Build-code-with-methods.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\bin\Debug\net7.0\Exercise-Build-code-with-methods.exe
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\bin\Debug\net7.0\Exercise-Build-code-with-methods.deps.json
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\bin\Debug\net7.0\Exercise-Build-code-with-methods.runtimeconfig.json
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\bin\Debug\net7.0\Exercise-Build-code-with-methods.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\bin\Debug\net7.0\Exercise-Build-code-with-methods.pdb
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\obj\Debug\net7.0\Exercise-Build-code-with-methods.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\obj\Debug\net7.0\refint\Exercise-Build-code-with-methods.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\obj\Debug\net7.0\Exercise-Build-code-with-methods.pdb
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\obj\Debug\net7.0\Exercise-Build-code-with-methods.genruntimeconfig.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise-Build-code-with-methods\obj\Debug\net7.0\ref\Exercise-Build-code-with-methods.dll
