@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Create-C#-methods-with-parameters/1.0.0": {
+        "runtime": {
+          "Create-C#-methods-with-parameters.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Create-C#-methods-with-parameters/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

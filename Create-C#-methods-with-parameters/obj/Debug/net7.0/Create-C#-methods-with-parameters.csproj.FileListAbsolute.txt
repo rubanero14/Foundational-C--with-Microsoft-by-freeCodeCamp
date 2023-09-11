@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\bin\Debug\net7.0\Create-C#-methods-with-parameters.exe
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\bin\Debug\net7.0\Create-C#-methods-with-parameters.deps.json
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\bin\Debug\net7.0\Create-C#-methods-with-parameters.runtimeconfig.json
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\bin\Debug\net7.0\Create-C#-methods-with-parameters.dll
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\bin\Debug\net7.0\Create-C#-methods-with-parameters.pdb
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\obj\Debug\net7.0\Create-C#-methods-with-parameters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\obj\Debug\net7.0\Create-C#-methods-with-parameters.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\obj\Debug\net7.0\Create-C#-methods-with-parameters.AssemblyInfo.cs
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\obj\Debug\net7.0\Create-C#-methods-with-parameters.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\obj\Debug\net7.0\Create-C#-methods-with-parameters.dll
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\obj\Debug\net7.0\refint\Create-C#-methods-with-parameters.dll
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\obj\Debug\net7.0\Create-C#-methods-with-parameters.pdb
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\obj\Debug\net7.0\Create-C#-methods-with-parameters.genruntimeconfig.cache
+C:\Users\User\Desktop\CsharpProjects\Create-C#-methods-with-parameters\obj\Debug\net7.0\ref\Create-C#-methods-with-parameters.dll
