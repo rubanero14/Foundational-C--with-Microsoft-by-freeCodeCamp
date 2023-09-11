@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\obj\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\obj\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\obj\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.AssemblyInfo.cs
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\obj\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\bin\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.exe
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\bin\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.deps.json
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\bin\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.runtimeconfig.json
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\bin\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\bin\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.pdb
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\obj\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\obj\Debug\net7.0\refint\Exercise---Complete-the-challenge-to-isplay-email-addresses.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\obj\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.pdb
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\obj\Debug\net7.0\Exercise---Complete-the-challenge-to-isplay-email-addresses.genruntimeconfig.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise---Complete-the-challenge-to-isplay-email-addresses\obj\Debug\net7.0\ref\Exercise---Complete-the-challenge-to-isplay-email-addresses.dll
