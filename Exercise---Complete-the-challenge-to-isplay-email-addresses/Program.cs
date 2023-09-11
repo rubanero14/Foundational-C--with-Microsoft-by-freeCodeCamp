@@ -27,5 +27,4 @@ void createEmail(string[,] names, string domainPostFix = "contoso.com")
         Console.WriteLine((names[i, 0].Substring(0, 2) + names[i, 1] + '@' + domainPostFix).ToLower());
     }
 }
-
 Console.WriteLine("====================================================");
