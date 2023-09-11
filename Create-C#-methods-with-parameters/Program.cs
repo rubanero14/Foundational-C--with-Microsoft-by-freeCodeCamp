@@ -150,9 +150,18 @@ string[] guestList = { "Rebecca", "Nadia", "Noor", "Jonte" };
 string[] rsvps = new string[10];
 int count = 0;
 
+// RSVP("Rebecca", 1, "none", true);
+// RSVP("Nadia", 2, "Nuts", true);
+// RSVP(name: "Linh", partySize: 2, allergies: "none", inviteOnly: false);  // Use named arguments
+// RSVP("Tony", 1, "Jackfruit", true);
+// RSVP("Noor", 4, "none", false);
+// RSVP("Jonte", 2, "Stone fruit", false);
+// ShowRSVPs();
+
+// Declare optional parameters
 RSVP("Rebecca");
 RSVP("Nadia", 2, "Nuts");
-RSVP(name: "Linh", partySize: 2, inviteOnly: false); // Use named arguments
+RSVP(name: "Linh", partySize: 2, inviteOnly: false);
 RSVP("Tony", allergies: "Jackfruit");
 RSVP("Noor", 4, inviteOnly: false);
 RSVP("Jonte", 2, "Stone fruit", false);
@@ -191,5 +200,5 @@ void ShowRSVPs()
     }
 }
 Console.WriteLine("====================================================");
-// Declare optional parameters
+
 
