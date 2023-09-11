@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\bin\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.exe
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\bin\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.deps.json
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\bin\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.runtimeconfig.json
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\bin\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\bin\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.pdb
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\obj\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\obj\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\obj\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.AssemblyInfo.cs
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\obj\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\obj\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\obj\Debug\net7.0\refint\Exercise-Complete-the-challenge-to-create-a-reusable-method.dll
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\obj\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.pdb
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\obj\Debug\net7.0\Exercise-Complete-the-challenge-to-create-a-reusable-method.genruntimeconfig.cache
+C:\Users\User\Desktop\CsharpProjects\Exercise-Complete-the-challenge-to-create-a-reusable-method\obj\Debug\net7.0\ref\Exercise-Complete-the-challenge-to-create-a-reusable-method.dll

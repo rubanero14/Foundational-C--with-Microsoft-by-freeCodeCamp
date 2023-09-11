@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Exercise-Complete-the-challenge-to-create-a-reusable-method/1.0.0": {
+        "runtime": {
+          "Exercise-Complete-the-challenge-to-create-a-reusable-method.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Exercise-Complete-the-challenge-to-create-a-reusable-method/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
