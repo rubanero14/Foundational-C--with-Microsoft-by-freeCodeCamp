@@ -13,24 +13,19 @@ string[,] external =
     {"Shay", "Lawrence"}, {"Daren", "Valdes"}
 };
 
-string externalDomain = "hayworth.com";
+// display internal email addresses
+createEmail(names: corporate);
 
-for (int i = 0; i < corporate.GetLength(0); i++)
+// display external email addresses
+createEmail(names: external, domainPostFix: "hayworth.com");
+
+void createEmail(string[,] names, string domainPostFix = "contoso.com")
 {
     // display internal email addresses
-    createEmail(firstName: corporate[i, 0], lastName: corporate[i, 1]);
-}
-
-for (int i = 0; i < external.GetLength(0); i++)
-{
-    // display external email addresses
-    createEmail(firstName: external[i, 0], lastName: external[i, 1], domainPostFix: externalDomain);
-}
-
-void createEmail(string firstName, string lastName, string domainPostFix = "contoso.com")
-{
-    // display internal email addresses
-    Console.WriteLine((firstName.Substring(0, 2) + lastName + '@' + domainPostFix).ToLower());
+    for (int i = 0; i < names.GetLength(0); i++)
+    {
+        Console.WriteLine((names[i, 0].Substring(0, 2) + names[i, 1] + '@' + domainPostFix).ToLower());
+    }
 }
 
 Console.WriteLine("====================================================");
