@@ -89,7 +89,6 @@ string ReverseSentence(string input)
 Console.WriteLine("===========================================================");
 // Exercise - Return Booleans from methods
 // Create a method that returns a Boolean
-
 string[] words = { "racecar", "talented", "deified", "tent", "tenet" };
 
 Console.WriteLine("Is it a palindrome?");
