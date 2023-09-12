@@ -87,3 +87,48 @@ string ReverseSentence(string input)
     return result.Trim();
 }
 Console.WriteLine("===========================================================");
+// Exercise - Return Booleans from methods
+// Create a method that returns a Boolean
+
+string[] words = { "racecar", "talented", "deified", "tent", "tenet" };
+
+Console.WriteLine("Is it a palindrome?");
+foreach (string word in words)
+{
+    Console.WriteLine($"{word}: {IsPalindrome(word)}");
+}
+
+// bool IsPalindrome(string word)
+// {
+//     int start = 0;
+//     int end = word.Length - 1;
+
+//     while (start < end)
+//     {
+//         if (word[start] != word[end])
+//         {
+//             return false;
+//         }
+//         start++;
+//         end--;
+//     }
+
+//     return true;
+// }
+
+// My Solution]
+bool IsPalindrome(string word)
+{
+    char[] wordArr = word.ToCharArray();
+    Array.Reverse(wordArr);
+    string reversedWord = "";
+
+    foreach (var character in wordArr)
+    {
+        reversedWord += character;
+    }
+
+    return word == reversedWord;
+
+}
+Console.WriteLine("===========================================================");
