@@ -209,6 +209,44 @@ else
     }
 }
 Console.WriteLine("===========================================================");
-// 
+// Exercise - Complete the challenge to add methods to make the game playable
+// Dice mini-game challenge
+Random random = new Random();
+int _target = 0;
+int roll = 0;
 
+Console.WriteLine("Would you like to play? (Y/N)");
+if (ShouldPlay())
+{
+    PlayGame();
+}
+
+void PlayGame()
+{
+    var play = true;
+
+    while (play)
+    {
+        _target = random.Next(1, 6);
+        roll = random.Next(1, 7);
+
+        Console.WriteLine($"Roll a number greater than {_target} to win!");
+        Console.WriteLine($"You rolled a {roll}");
+        Console.WriteLine(WinOrLose());
+        Console.WriteLine("\nPlay again? (Y/N)");
+
+        play = ShouldPlay();
+    }
+}
+
+string WinOrLose()
+{
+    return (roll > _target) ? "You win!" : "You lose!";
+}
+
+bool ShouldPlay()
+{
+    string? input = Console.ReadLine();
+    return input?.ToLower() == "n" ? false : true;
+}
 Console.WriteLine("===========================================================");
