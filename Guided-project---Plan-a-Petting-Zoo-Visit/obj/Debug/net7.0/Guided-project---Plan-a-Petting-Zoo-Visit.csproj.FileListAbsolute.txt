@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\bin\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.exe
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\bin\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.deps.json
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\bin\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.runtimeconfig.json
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\bin\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.dll
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\bin\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.pdb
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\obj\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\obj\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\obj\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.AssemblyInfo.cs
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\obj\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\obj\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.dll
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\obj\Debug\net7.0\refint\Guided-project---Plan-a-Petting-Zoo-Visit.dll
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\obj\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.pdb
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\obj\Debug\net7.0\Guided-project---Plan-a-Petting-Zoo-Visit.genruntimeconfig.cache
+C:\Users\User\Desktop\CsharpProjects\Guided-project---Plan-a-Petting-Zoo-Visit\obj\Debug\net7.0\ref\Guided-project---Plan-a-Petting-Zoo-Visit.dll
