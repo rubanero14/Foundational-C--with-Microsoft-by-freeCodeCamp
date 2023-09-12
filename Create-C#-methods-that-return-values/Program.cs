@@ -115,7 +115,7 @@ foreach (string word in words)
 //     return true;
 // }
 
-// My Solution
+// My Own Solution
 bool IsPalindrome(string word)
 {
     char[] wordArr = word.ToCharArray();
