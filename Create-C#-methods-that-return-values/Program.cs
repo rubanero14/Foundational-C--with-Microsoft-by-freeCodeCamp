@@ -129,6 +129,5 @@ bool IsPalindrome(string word)
     }
 
     return word == reversedWord;
-
 }
 Console.WriteLine("===========================================================");
