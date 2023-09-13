@@ -1,5 +1,31 @@
 ﻿using System;
 
+// Pseudo code 
+/*
+    - The code declares the following variables:
+        - Variables to determine the size of the Terminal window.
+        - Variables to track the locations of the player and food.
+        - Arrays `states` and `foods` to provide available player and food appearances
+        - Variables to track the current player and food appearance
+
+    - The code provides the following methods:
+        - A method to determine if the Terminal window was resized.
+        - A method to display a random food appearance at a random location.
+        - A method that changes the player appearance to match the food consumed.
+        - A method that temporarily freezes the player movement.
+        - A method that moves the player according to directional input.
+        - A method that sets up the initial game state.
+
+    - The code doesn't call the methods correctly to make the game playable. The following features are missing:
+        - Code to determine if the player has consumed the food displayed.
+        - Code to determine if the food consumed should freeze player movement.
+        - Code to determine if the food consumed should increase player movement.
+        - Code to increase movement speed.
+        - Code to redisplay the food after it's consumed by the player.
+        - Code to terminate execution if an unsupported key is entered.
+        - Code to terminate execution if the terminal was resized.
+*/
+
 Random random = new Random();
 Console.CursorVisible = false;
 int height = Console.WindowHeight - 1;
@@ -27,7 +53,32 @@ int food = 0;
 InitializeGame();
 while (!shouldExit)
 {
-    Move();
+    if (TerminalResized())
+    {
+        Console.Clear();
+        Console.Write("Console was resized. Program exiting.");
+        shouldExit = true;
+    }
+    else
+    {
+        if (PlayerIsFaster())
+        {
+            Move(3, false);
+        }
+        else if (PlayerIsSick())
+        {
+            FreezePlayer();
+        }
+        else
+        {
+            Move(otherKeysExit: true);
+        }
+        if (GotFood())
+        {
+            ChangePlayer();
+            ShowFood();
+        }
+    }
 }
 
 // Returns true if the Terminal was resized 
@@ -43,12 +94,30 @@ void ShowFood()
     food = random.Next(0, foods.Length);
 
     // Update food position to a random location
-    foodX = random.Next(0, width - player.Length);
+    foodX = random.Next(0, width - 5);
     foodY = random.Next(0, height - 1);
 
     // Display the food at the location
     Console.SetCursorPosition(foodX, foodY);
     Console.Write(foods[food]);
+}
+
+// Returns true if the player location matches the food location
+bool GotFood()
+{
+    return playerY == foodY && playerX == foodX;
+}
+
+// Returns true if the player appearance represents a sick state
+bool PlayerIsSick()
+{
+    return player.Equals(states[2]);
+}
+
+// Returns true if the player appearance represents a fast state
+bool PlayerIsFaster()
+{
+    return player.Equals(states[1]);
 }
 
 // Changes the player to match the food consumed
@@ -67,7 +136,7 @@ void FreezePlayer()
 }
 
 // Reads directional input from the Console and moves the player
-void Move()
+void Move(int speed = 5, bool otherKeysExit = false)
 {
     int lastX = playerX;
     int lastY = playerY;
@@ -75,19 +144,23 @@ void Move()
     switch (Console.ReadKey(true).Key)
     {
         case ConsoleKey.UpArrow:
-            playerY--;
+            playerY -= 3;
             break;
         case ConsoleKey.DownArrow:
-            playerY++;
+            playerY += 3;
             break;
         case ConsoleKey.LeftArrow:
-            playerX--;
+            playerX -= speed;
             break;
         case ConsoleKey.RightArrow:
-            playerX++;
+            playerX += speed;
             break;
         case ConsoleKey.Escape:
             shouldExit = true;
+            break;
+        default:
+            // Exit if any other keys are pressed
+            shouldExit = otherKeysExit;
             break;
     }
 
