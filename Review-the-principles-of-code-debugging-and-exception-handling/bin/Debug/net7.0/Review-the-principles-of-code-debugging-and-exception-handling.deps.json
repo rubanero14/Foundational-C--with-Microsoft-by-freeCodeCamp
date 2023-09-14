@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Review-the-principles-of-code-debugging-and-exception-handling/1.0.0": {
+        "runtime": {
+          "Review-the-principles-of-code-debugging-and-exception-handling.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Review-the-principles-of-code-debugging-and-exception-handling/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
