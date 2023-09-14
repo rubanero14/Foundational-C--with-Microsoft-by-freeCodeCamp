@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj": {}
+    "C:\\Users\\User\\Desktop\\CsharpProjects\\debug-101\\debug-101.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj": {
+    "C:\\Users\\User\\Desktop\\CsharpProjects\\debug-101\\debug-101.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj",
-        "projectName": "TestProject",
-        "projectPath": "C:\\Users\\User\\Desktop\\CsharpProjects\\TestProject\\TestProject.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\CsharpProjects\\debug-101\\debug-101.csproj",
+        "projectName": "debug-101",
+        "projectPath": "C:\\Users\\User\\Desktop\\CsharpProjects\\debug-101\\debug-101.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\CsharpProjects\\TestProject\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\CsharpProjects\\debug-101\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
