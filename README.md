@@ -17,3 +17,10 @@ dotnet run
 ```
 dotnet build
 ```
+
+## To create new console application solution:
+
+```c#
+// on the same level as the file with extension .csproj
+dotnet new solution
+```
