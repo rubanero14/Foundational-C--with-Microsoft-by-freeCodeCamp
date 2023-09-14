@@ -7,12 +7,12 @@ Array.Reverse(charMessage);
 int x = 0;
 
 // count the o's
-foreach (char i in charMessage) 
-{ 
-    if (i == 'o') 
-    { 
-        x++; 
-    } 
+foreach (char i in charMessage)
+{
+    if (i == 'o')
+    {
+        x++;
+    }
 }
 
 // convert it back to a string

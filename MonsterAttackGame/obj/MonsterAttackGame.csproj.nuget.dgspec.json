@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\CsharpProjects\\MonsterAttackGame\\MonsterAttackGame.csproj": {}
+    "c:\\Users\\User\\Desktop\\CsharpProjects\\MonsterAttackGame\\MonsterAttackGame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\CsharpProjects\\MonsterAttackGame\\MonsterAttackGame.csproj": {
+    "c:\\Users\\User\\Desktop\\CsharpProjects\\MonsterAttackGame\\MonsterAttackGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\CsharpProjects\\MonsterAttackGame\\MonsterAttackGame.csproj",
+        "projectUniqueName": "c:\\Users\\User\\Desktop\\CsharpProjects\\MonsterAttackGame\\MonsterAttackGame.csproj",
         "projectName": "MonsterAttackGame",
-        "projectPath": "C:\\Users\\User\\Desktop\\CsharpProjects\\MonsterAttackGame\\MonsterAttackGame.csproj",
+        "projectPath": "c:\\Users\\User\\Desktop\\CsharpProjects\\MonsterAttackGame\\MonsterAttackGame.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\CsharpProjects\\MonsterAttackGame\\obj\\",
+        "outputPath": "c:\\Users\\User\\Desktop\\CsharpProjects\\MonsterAttackGame\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
