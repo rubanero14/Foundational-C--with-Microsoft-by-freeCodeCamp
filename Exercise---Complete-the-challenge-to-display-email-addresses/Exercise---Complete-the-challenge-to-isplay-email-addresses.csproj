@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
-    <RootNamespace>Exercise___Complete_the_challenge_to_isplay_email_addresses</RootNamespace>
+    <RootNamespace>Exercise___Complete_the_challenge_to_display_email_addresses</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
