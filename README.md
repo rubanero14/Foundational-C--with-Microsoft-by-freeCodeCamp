@@ -24,3 +24,10 @@ dotnet build
 // on the same level as the file with extension .csproj
 dotnet new solution
 ```
+
+OR
+
+```c#
+// on the same level as the file with extension .csproj
+dotnet new sln
+```
